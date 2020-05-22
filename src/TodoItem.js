@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import PropTypes from 'prop-types';
 class TodoItem extends Component {
     constructor(props) {
         super(props);
@@ -16,5 +16,9 @@ class TodoItem extends Component {
         delValueInList(index)
     }
 }
-
+TodoItem.propTypes = {
+    content: PropTypes.string,
+    delValueInList: PropTypes.func,
+    index: PropTypes.number
+}
 export default TodoItem
