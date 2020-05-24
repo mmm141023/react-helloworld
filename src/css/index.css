@@ -1,0 +1,16 @@
+.todoinfo {
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.list-width{
+    width: 530px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
